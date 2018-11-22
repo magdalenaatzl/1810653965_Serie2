@@ -25,25 +25,32 @@ public class Zahlenraten {
     }*/
 
 
-    //String zahl = JOptionPane.showInputDialog("Geben Sie eine Zahl zwischen 1 und 10 ein");
-    //funktioniert so nicht weil ich Stringdatentypen nicht mit dem Integerdatentyp vergleichen kann
+        //String zahl = JOptionPane.showInputDialog("Geben Sie eine Zahl zwischen 1 und 10 ein");
+        //funktioniert so nicht weil ich Stringdatentypen nicht mit dem Integerdatentyp vergleichen kann
 
-    int zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl zwischen 1 und 10 ein"));
-    //String Datentyp wird in Intgeger umgewandelt
+        int zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl zwischen 1 und 10 ein"));
+        //String Datentyp wird in Intgeger umgewandelt
 
-    int ergebnis = zahl-zufallszahl;
+        int ergebnis = zahl - zufallszahl;
 
-    if(zahl==zufallszahl)
-    {
-        JOptionPane.showMessageDialog(null, "Das ist die richtige Zahl");
-    }
-    else if (ergebnis<=2&&ergebnis>=-2) {
-        JOptionPane.showMessageDialog(null, "Du bist schon sehr nah dran");
-    }
 
-    else {
-        JOptionPane.showMessageDialog(null, "Das ist die falsche Zahl");
-        JOptionPane.showMessageDialog(null, "Die richtige Zahl war: " + zufallszahl);
+        for (int i = 0; i < 3; i++) {
+            if (zahl == zufallszahl) {
+                JOptionPane.showMessageDialog(null, "Das ist die richtige Zahl");
+                break;
+            } else if (ergebnis <= 2 && ergebnis >= -2) {
+                JOptionPane.showMessageDialog(null, "Du bist schon sehr nah dran");
+                zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl zwischen 1 und 10 ein"));
+            } else {
+                JOptionPane.showMessageDialog(null, "Das ist die falsche Zahl");
+                zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl zwischen 1 und 10 ein"));
+            }
+
+            if (i==2)
+            {
+                JOptionPane.showMessageDialog(null, "Du hast alle drei Versuche verkackt!");
+            }
+
         }
     }
 }
