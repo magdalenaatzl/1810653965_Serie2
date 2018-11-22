@@ -9,17 +9,18 @@ public class Main {
         String name = JOptionPane.showInputDialog("Namen eingeben");
 
         //einen Integer einlesen lassen
-        int zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie Ihr Alter ein"));
+        int zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl ein"));
 
         //Prüfung ob Volljährig
         int alter = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie Ihr Alter ein"));
 
         if (alter>=18)
         {
-            System.out.println("Du bist Volljährig");
+        JOptionPane.showMessageDialog(null, "Du bist Volljährig");
+
         }
         else {
-            System.out.println("Du bist noch nicht Volljährig");
+        JOptionPane.showMessageDialog(null,"Du bist noch nicht Volljährig");
         }
     }
 }
