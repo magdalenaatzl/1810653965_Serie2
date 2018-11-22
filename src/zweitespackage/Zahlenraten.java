@@ -1,5 +1,6 @@
 package zweitespackage;
 
+import javax.swing.*;
 import java.util.Random;
 
 public class Zahlenraten {
@@ -16,11 +17,15 @@ public class Zahlenraten {
 
     if(zufallszahl%2==0) //Wenn die Zahl keinen Rest hat ist sie gerade
     {
+        JOptionPane.showMessageDialog(null, "Dies ist eine gerade Zahl");
         System.out.println("Dies ist eine gerade Zahl");
     }
     else{
-        System.out.println("Dies ist eine ungerade Zahl");
+        JOptionPane.showMessageDialog(null, "Dies ist eine ungerade Zahl");
     }
 
     }
+
+
+
 }
