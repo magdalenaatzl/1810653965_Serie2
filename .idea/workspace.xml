@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e26578-12b8-4471-806c-e2887f2aa584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fhkufstein/Aufgabe1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,33 +24,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4341" />
+          <entry key="java" value="4865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4341" />
+          <entry key="JAVA" value="4865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fhkufstein/Aufgabe1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="84" lean-forward="true" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +87,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/fhkufstein/Main.java" />
         <option value="$PROJECT_DIR$/src/zweitespackage/NeueKlasse.java" />
-        <option value="$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java" />
         <option value="$PROJECT_DIR$/src/zweitespackage/ZahlenraterZweiterVersuch.java" />
         <option value="$PROJECT_DIR$/src/zweitespackage/Aufgabe5.java" />
         <option value="$PROJECT_DIR$/src/fhkufstein/Aufgabe1.java" />
+        <option value="$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java" />
       </list>
     </option>
   </component>
@@ -112,6 +124,12 @@
               <item name="1810653965_Serie2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="1810653965_Serie2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1810653965_Serie2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fhkufstein" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -123,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543150801569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543152191968" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -138,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aufgabe1">
+  <component name="RunManager" selected="Application.Zahlenraten">
     <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fhkufstein.Aufgabe1" />
       <module name="1810653965_Serie2" />
@@ -196,9 +214,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zahlenraten" />
         <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.ZahlenraterZweiterVersuch" />
-        <item itemvalue="Application.Zahlenraten" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -214,12 +232,21 @@
       <option name="presentableId" value="Default" />
       <updated>1542890773720</updated>
       <workItem from="1542890776812" duration="9163000" />
-      <workItem from="1543142954099" duration="5919000" />
+      <workItem from="1543142954099" duration="7184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15082000" />
+    <option name="totallyTimeSpent" value="16347000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -234,7 +261,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31868133" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3177305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -269,16 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zweitespackage/ZahlenraterZweiterVersuch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -308,8 +325,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fhkufstein/Aufgabe1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="84" lean-forward="true" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zweitespackage/Zahlenraten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
