@@ -1,5 +1,7 @@
 package zweitespackage;
 
+import jdk.nashorn.internal.scripts.JO;
+
 import javax.swing.*;
 import java.util.Random;
 
@@ -24,20 +26,37 @@ public class Zahlenraten {
         muss mit dem "Integer.parseInt" in einen Integer Wert umgewandelt werden
         */
 
-        int zahl = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl ein"));
+        JOptionPane.showMessageDialog(null, "Kannst du meine Zahl erraten? Du hast 3 Versuche");
 
-        if(zufallszahl==zahl)
+        for(int i=0; i<3; i++)
         {
-            JOptionPane.showMessageDialog(null, "Das war die richtige Zahl");
+            int zahl = Integer.parseInt(JOptionPane.showInputDialog("Gib eine Zahl zwischen 1 und 10 ein"));
+            if (zufallszahl == zahl) {
+                if(i==0){
+                    JOptionPane.showMessageDialog(null, "Wahnsinn! Du hast es gleich beim ersten Versuch erraten!");}
+                if(i==1){
+                    JOptionPane.showMessageDialog(null, "Gratuliere! Du hast die Zahl beim zweiten Mal erraten");}
+                if (i==2){
+                    JOptionPane.showMessageDialog(null, "Puh das war knapp!\n aber du hast es beim letzten Versuch geschafft!");
+                }
+                break;
+            } else if ((zufallszahl - zahl) <= 2 && (zufallszahl - zahl) >= -2) {
+                JOptionPane.showMessageDialog(null, "Knapp daneben! \nDu bist deiner Zahl aber schon ziemlich nahe");
+                if(i==2){
+                    JOptionPane.showMessageDialog(null, "Loser! Du hast es nicht geschafft! \n Die richtige Zahl war: " +zufallszahl);
+             }
+    }
+            else {
+        JOptionPane.showMessageDialog(null, "Das war leider nichts");
+        if(i==2){
+            JOptionPane.showMessageDialog(null, "Loser! Du hast es leider nicht geschafft! \n Die richtige Zahl war: " +zufallszahl);
         }
-        else if ((zufallszahl-zahl)<=2 &&(zufallszahl-zahl)>=-2)
-        {
-            JOptionPane.showMessageDialog(null, "Knapp daneben!");
-        }
-        else
-        {
-            JOptionPane.showMessageDialog(null, "Das war leider nichts");
-        }
+    }
+
+
+}
+
+
 
 
 
